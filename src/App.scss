@@ -1,0 +1,69 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/*Avoid tap on ul change background to transparency for mobile phones */
+* {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-overflow-scrolling: touch;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font: 15px/1.6 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  width: 100%;
+  height: 100%;
+  color: #212529;
+}
+#root {
+  margin: 0 auto;
+}
+.App {
+  background: #fff
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  // background: #646464;
+  min-height: 100%;
+}
+
+
+h1, h2, h3, h4, h5 {
+  font-size: 100%;
+  font-weight: normal;
+  margin: 0;
+}
+
+ol, ul, li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+i {
+  font-style: normal;
+}
+
+a {
+  color: #212529;
+  text-decoration: none;
+}
+
+a, input, textarea, select {
+  outline: none;
+  font-size: 15px;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
